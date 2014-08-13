@@ -1,0 +1,323 @@
+Version 0 Revision 18 - Claire Bennet's
+
+- Fixed you crappy revision counting, if you want extention maths, please learn to count first.
+- Added rooms
+- Fixed the doorway problem (OMG, Theres so many of them!)
+- Edited Entry gates
+- Added Chimnies
+- Heightened the roof thingies
+
+Notes:
+
+- At the front of school there is a locic_relay, it isn't connected, but i'm not sure if i should delete or not, decide for yourself.
+- You've gotta fix the texturing on the new rooms. I can't texture.
+--------------------------------------------------------------
+
+Version 0 Revision 15 - Micah Edited
+
+- Deleted your secret ladder to the roof
+- Added not-secret ladder to roof
+- Removed some other secrets. Fair gameplay is better gameplay.
+- Made WORKING lift.
+- Added custom textures.
+- Added roof geometry.
+- Doorway problem: In the doorways with the func_rotating doors there is a gap between the corridor brush floor and the classroom brush door, this is the doorway, when i checked other rooms, they all had this gap 
+in between it.
+
+Notes:
+- I got a bit distracted this week, sorry I couldn't do more.
+- The files are now starting to need compression. Map is now over 6mb. Custom textures don't help.
+- I know the textures are crap. Incase you missed Claire's post, we desperately need a texturer.
+- @claire: The BSP file in the zip includes the textures. If you release, release this file, not one you compiled yourself. Because of the custom textures, I have included a folder called de_fshs in the zip. Place this in your counter-strike materials folder. (mine's at "C:\Program Files\Steam\steamapps\dougallj\counter-strike source\cstrike\materials\"). They will not be automatically included in the files, but should make everything look good on your computer.
+- There is a small bug near the windows in W1. Also in the room next to the computer room.
+- The custom brick texture is present around the edges of windows. It should probably be swapped for the concrete one.
+- we should add the rooms to the right wing.
+- Once we have those rooms, we should work on creating exteriors for release 1 (outside of the hall, outside of cohen) so that it starts to look good. I might thing about adding a skybox for kilgour.
+
+----
+
+Version 0 Revision 16 - Claire Bennet's Hot Little Hands
+
+- Fixed Micah's dodgy revision counting
+- Added some handrails in the middle stairs, (**** their so hard to match up exactly!)
+- Added Join Camera (When clients first join, it snaps to this place)
+- Added Elevator
+- Added a bit of the cohen floor
+- Added glasss in elevator
+- Added gate thingy in fountain quad
+- Added secret room
+- Added other secret "room"
+- Added third-level elevator reachability
+- Fixed Top floor handrail on stairs no-clip problem
+- Fixed extruding wall on ground floor
+- Did some unrealisic stuff that should be removed later
+
+NOTE:
+
+- Need to fix the EXACT positioning of handrails
+- I played with some stuff like weapons ammos, delete them in released builds.
+- Credit to: Elevator tutorial: www.snarkpit.net/editing...&game=HL2&id=151
+- Recommend implimenting anti-decompilation: http://www.fpsbanana.com/tuts/1722
+- Need to fix the "animated skybox" (the car thats supposed to move)
+- Need to fix cohen doors (the door is like a meter thick)
+**UNRELEASED COMMENT** - Just thought of something, DELETE my cohen, we've got to finish wilkins and realease it!
+
+----
+
+Version 0 Revision 15 - Micah Edited
+
+- General geometric fixes and changes
+- General proportion fixes and changes
+- General texturing fixes and changes
+- General additions of rooms, windows and doors.
+- Increased number of spawns, 23 per team (46 players max.)
+- Spawn points now have visgroups ("T Spawns" and "CT Spawns").
+- Fixed a func_detail displacement which was causing a compile error.
+- Straightened main stairs on the left and right
+- Moved right stairs further back as part of proportion fixing.
+- Added stairs on the back left.
+- Made left and right veranda lengths more accurate.
+- Extended terain at left
+- Added elevator shaft
+- Added place-holder for cottage.
+- Added store rooms on right.
+- Began Cohen roof
+- Added windows to principal's stairwell (no stained glass texture, used normal window texture)
+- Added fountain-quad side windows to front rooms on right side.
+- Made front wider.
+- Added doors to rooms adjacent to principal's stairwell. 
+- Extended quadrangle and added small part of hall.
+- Began over-pass
+- Added supporting pillars on left and right.
+- Added more shrubs (fountain quad)
+- Moved fountain quad sculpture across to make room for another bench.
+- Changed trees a bit. More realistic placement, no going through walls, but some touching walls.
+
+Notes:
+- "because when 3D camera viewing, tree model dissappears because of viewing range"
+	So increase the viewing range:
+	Tools -> Options -> 3D Views -> Model Render Distance (drag to 10000 while editting big models)
+- We've almost finnished the Wilkins building... When we do, I think we should polish it up and release version 1, which would be our first stable release.
+
+----
+
+Version 0 Revision 14 - Porsche Cayenne Driving Claire Bennet
+
+- Fixed tree penetration of concrete... on one side
+- Changed the tree's models
+- Added more trees
+- Added computers and some chairs and some computer cases to the video editing suite plus some tables
+- Added a toilet room in the Lower wilkins art room
+- Fixed wierd 3D skybox thing
+- Added other side of school,
+- made a TEMPORARY (NOTE: TEMPORARY) ramp that in real life does not exsist, to connect the left side of the school to the fountain quad, 
+this greatly increases activity and fun for the time being, until the actual stairs have been made that will serve as a walking space
+
+Notes:
+- Need to fix positioning of the lower wilkins art room
+- Penetration of the walls in fountain quad is hard to fix because when 3D camera viewing, tree model dissappears because of viewing range
+- Desk in computer editing suite is brushes therefor are yukkie
+- Desk models in-game are too small for our map scale
+- Computers seem to fly too far when its naded... no weight...
+- Need to fix placement of trees (IMPORTANT: the current placement is very bad, its very hard to do)
+
+----
+
+Version 0 Revision 13 - Micah Edited
+
+- Fixed your textures
+- Fixed your bushes
+- Improved your stairs
+- Added fountain quad ground texture
+- General expansions... New rooms and new windows.
+- Changed windows in the video editing room, they're the same as everything else.
+- Removed the evil shrubs
+- Added shrubs on the other side of the quad.
+- Added stairs near old principals office. They're useless because the exits on each level don't exist.
+- General fixes and geometry changes
+- Changed many unseen faces to no-draws
+- Started on small art-room area at bottom of wilkins right-wing stair-case
+
+Notes:
+- Trees look autumny... Should they?
+- There should be many more smaller trees
+- Can you fix the bits where the trees stick through walls?
+- I think the stairs on the right wind are too far to the right... If you get what I mean.
+- I think I've narrowed the proportion problem down. The wilkins front veranda is too small. It should be wider and longer, which will give us room to put in the things we need.
+- The entire left wing is complete, with the exceptions of windows on the front and the stair-case at the back.
+
+----
+
+Version 0 Revision 12 - Claire Bennet + Mysterious ShapeShiftaz + Elisha Cuthburt
+
+- Made some trees
+- Made a statue, made a chair
+- Made no-draw on shrubs
+- Didn't make triple windows on 2nd floor (ground->1st->2nd) because thats a video editing room
+- Made right hand side stairs
+- Made some junk to shoot
+- Added little chain gate texture to the little gap on 2nd floor where you can shoot down at the stairs
+- Tried to impliment a railing thing for the fountain quad center stairs, 
+- Added stairs to lower wilkins (aka art room)
+- Added some "safety first" no-draws so players are less likely to fall off weird places
+- Entended Right side (looking from front of school)
+- Fixed some no-ceilings
+- Fixed gap between left and principals study
+- Added Video Editing, IT suite on second floor
+
+Notes:
+
+- Problem found at new stairs, the two floors don't line up, therefor stairs had to be wonked.
+- Fix my brush texturing, i suck at finding textures.
+- No-draws are temporary
+- No-draws ontop of the scrubs at fountain quad are now fully covering scrubs
+- Tried to make you know that bit of bark at the front of the school on the ground floor bit of bark? Extremely hard
+because floor is not flat, need solution
+- IMPORTANT: Why is the game rendering some scrubs not in the flowerbed, but they don't appear in hammer?
+check entity: func_illusionary, might have messed something up
+- My texturing is very bad, apply the correct ones thanks
+
+----
+
+Version 0 Revision 11 - Micah Edited
+
+- Changed the geom of some things... It's a bit messy.
+- Removed tanks... They were a bit weird, and I thought they might be causing a problem
+- More stuff on top layer.
+- Remade bush, it works... But it needs improvement
+- Redid windows, now with less fun physics (the whole thing breaks when shot), and more accurate looks.
+- Added more windows
+- Added door to the cleaner's room under the stairs.
+- Added two sets of stairs down to fountain quad
+- Started fountain quad
+- Started right side of wilkins
+
+Notes:
+- Must make rooms, and oposing stairwell
+- Must make things more proportionate
+- Must do textures sometime
+
+----
+
+Version 0 Revision 10 - Claire is Hot Edited
+
+- Made some new rooms,
+- Attempted to expand right side of wilkins (you need to actually do it)
+- Fixed some texture thingies
+- Made a tank, give me some cover when you shoot me from the top
+- Made a combine tank to the top, see if it falls off
+
+Notes:
+- You need to expand the right side
+- On top floor the floor is uneven with bits that go down especially near the classrooms, try and fix that with
+proportion in mind
+- See if you can get that texture to work, if it does, i'll make a texture with credits on it overlapping a default texture 
+Therefor we have CREDITS TEXTURE! YAY!
+
+----
+
+Version 0 Revision 9 - Micah Edited
+
+- Altered door behaviour. Doors now only open when use is pressed, can be closed by pressing use and stay open for 30 seconds before closing themself.
+- Numerous fixes and changes to geometry and proportion.
+- Added some windows and doors.
+- Added CT spawns (wilkins, second story, front), as these will be version specific, they are only for testing purposes.
+- New skybox, much more Australian weather. (I hate Australian weather)
+
+Notes:
+- All walls need to be changed to width 16.
+- We should start expanding about now, just add lots of rooms and stuff...
+- Don't bother adding windows if width is not 16, fix the width first, or leave that to me.
+- You left an apostrophe out of "Claire Bennets Hot Little Hands".
+- I changed log formatting a little, only tiny content changes. Turn "Word Wrap" on in Notepad when viewing (Format > Word Wrap).
+- I forgot to mention that the new arches can be hidden with a vis-group (since rev 7).
+
+----
+
+Version 0 Revision 8 - Claire Bennets Hot Little Hands
+
+- Fixed micah's revision log
+- Extended skybox
+- Made Rain
+- Made some test doors, keep if wanted, although doorway hight/widths will have to be adapted
+- Made some ceilings
+- Made some walls
+- Made a window
+
+Notes:
+- Texture all the stuff i did properly
+- apply more doors if needed
+
+----
+
+Version 0 Revision 7 - Micah Edited
+
+- Re-did the scale. Much more realistic.
+- Added ground infront of wilkins.
+- Added bush... It sucks.
+- Added rails to stairs.
+- Extended front stairs.
+- Re-did the arches... Not sure if they're better, but they fit.
+- Added floor for front of top story.
+- Fixed W3 door and window positions.
+- Many small changes, mostly related to size.
+
+Notes:
+- Whole wilkins front should be abit wider.
+- Need to start making the rooms.
+- The window has about 12 panes, not 4 (but I don't know why we'd bother making all 12, maybe make 4 panes look like 12 by adding more easil breakable seperators)
+- Need to figure out how to import textures... And how to make models.
+
+----
+
+Version 0 Revision 6 - Claire Bennet Edited
+
+- Shortened Extention of stairs to no protrusion by stairs steepened and classrooms extended (Tested, walkable)
+- Extended Temporary Skybox
+- Made a test window on ground floor W5 and 1st floor same spot, crossbars on window are breakable and break like wood at 80 damage, glass breaks like glass
+- Fixed problem, where 1st floor stairs main platform/1st floor (actual floor) was higher than the ground floor ceiling, fixed it by lowering main platform/1st floor until it was low enough to be the ceiling for the ground floor
+- Created Careers Room Floor + Shared Wall
+- Created History Store Room Floor + Shared Wall
+- Made Ground Floor Cilinder things for the wall (Teh Pr0n3ss)
+
+Notes:
+- You need to texture the stairs back wall
+- You need to texture the 1st floor (not ground) W13,W14 floors
+- You need to texture (if you want to keep it) the window on the left (looking straight on) on room W5
+
+----
+
+Version 0 Revision 5 - Micah Edited
+
+-Extended 2nd level of wilkins. Textured stairs to standard concrete.
+-Added Stairwell wall for guidance for stair adjustments.
+-Added the other layer of the stairwell.
+-Adjusted proportions.
+-Temporary skybox added.
+-Added some rooms.
+
+Notes:
+-Stairs are good, but extend too far back. They need to (somehow) fit within the building.
+-Need textures
+
+----
+
+Version 0 Revision 4 - Claire Bennet Edited
+
+Everytime i edit the map i'll try to make a list of some stuff i did, and some stuff i need to fix, i suggest you do the same?
+
+-Made stairs, damn they were hard getting it perfectly 1/2 leveled
+-Made small stairs down from ground floor wilkins into courtyard
+-Made small stairs down from ground floor wilkins directly infront of center of school
+
+
+Notes:
+-Please texture them, couldn't be bothered to find yours... most of them are grouped for your convenience anyway
+-Can't seem to group the arches? grouping worked, adding it to a custom VisGroup didn't... 1/2 of it adds rest doesen't tho high-
+lighted
+-Leave the other stairs to me, or if you want to do it... copy and paste my other one for uniformity
+-do the top level, i dunno how to hell ima do the little jail bar things :P
+
+----
+
+End of log. No changes were logged before Revision 4.
